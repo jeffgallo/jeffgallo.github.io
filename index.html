@@ -1,5 +1,12 @@
 ---
 layout: page
-title: Hello!
 ---
-hello world
+{% for post in site.posts limit: 1 %}
+	<h1> {{ post.title }}</h1>
+	<div class="post-byline"> by, {{ post.author }}
+    <br /> {{ post.date | date: "%B %-d, %Y" }}</div>
+    <br />
+    <body>
+     {{ post.content }}
+    </body> 
+{% endfor %}
