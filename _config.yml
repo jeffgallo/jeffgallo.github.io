@@ -6,8 +6,8 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Hyggeligt & Hype
-email: 
+title: Portfolio Examples
+email:
 description: > # this means to ignore newlines until "baseurl:"
   Some cool things but not a lot of things.
 baseurl: "" # the subpath of your site, e.g. /blog
